@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="resize.css">
+    <title>Contact Us</title>
+</head>
+<body id="contactbody">
+  <input type="checkbox" id="toggle">
+  <nav class="navbar">
+      <a class="navbar-brand" id="logo" href="/">
+         <img src="images/logo.png" alt="">
+      </a>
+  
+      <label class="navbar-toggler" for="toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </label>
+      <ul class="nav-list">
+  <a class="nav-link" href="/">
+          <li class="nav-item">
+              Home
+          </li>
+        </a>
+        <a class="nav-link" href="miniremodel.html">
+          <li class="nav-item">
+              Mini Remodel
+          </li>
+          </a>
+          <a class="nav-link" href="fullremodel.html">
+          <li class="nav-item">
+              Full Remodel
+          </li>
+          </a>
+          <a class="nav-link" href="gallery.html">
+          <li class="nav-item">
+              Gallery
+          </li>
+  </a>
+          <a class="nav-link" href="about.html">
+          <li class="nav-item">
+              About
+          </li>
+        </a>
+        <a class="nav-link" href="contactus.html">
+          <li class="nav-item" >
+              Contact Us
+          </li>
+  </a>
+      </ul>
+  </nav>
+<main id="conbody">
+<div id="contitle">
+<h1>KEANE KITCHENS SHOWROOM</h1>
+</div>
+
+<div id="boxcontainer">
+    <div class="whitebox" id="map">
+<img src="images/icon3.png" alt="pic error">
+<h3>VISIT US HERE</h3>
+<p>
+    Belmont Showroom
+    415 Old County Rd, Belmont, CA 94002
+</p>
+    </div>
+
+    <div class="whitebox" id="clock">
+<img src="images/icon1.png" alt="pic error">
+<h3>WORKING<br> HOURS</h3>
+<p>Mon-Fri: 9 AM - 5 PM
+   <br> Sat & Sun: Closed </p>
+    </div>
+
+    <div class="whitebox" id="phone">
+<img src="images/icon2.png" alt="pic error">
+<h3>CONTACT US</h3>
+<p>
+    Phone:  1 (650) 631-0330<br>
+    Email: info@keanekitchens.com
+</p>
+    </div>
+</div>
+<div id="contitle">
+    <h1>MESSAGE US</h1>
+    </div>
+
+    <div id="contact-form">
+        <form method="POST" action="process-form.php">
+          <div id="formwrapper">
+            <div class="form1">
+              <div class="form-group">
+                <input type="text" id="new-firstname" name="new-firstname" placeholder="First Name" required>
+              </div>
+              <div class="form-group">
+                <input type="text" id="new-lastname" name="new-lastname" placeholder="Last Name" required>
+              </div>
+            </div>
+            <div class="form1">
+              <div class="form-group">
+                <input type="email" id="new-email" name="new-email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" id="new-phone" name="new-phone" placeholder="Phone Number" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div id="emailcontainer">
+      <a href="mailto:your-email@example.com" id="emailButton">
+        Email Us Your Photos
+      </a>
+      </div>
+      
+     
+
+</main>
+    <script src="index.js"></script>
+</body>
+</html>
