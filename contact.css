@@ -202,7 +202,7 @@ margin:3rem;
   margin: 40px;
   padding:10px;
   text-align: center;
-  height:300px;
+  height:350px;
   max-width:300px;
 }
 .whitebox img{
@@ -336,7 +336,7 @@ footer{
 #callcontact{
     text-align:center;
     background-color: rgba(25,157,231, 0.2);
-    height:1rem;
+    height:1.5rem;
     width:8rem;
     font-size:20px;
    margin:auto;
@@ -346,3 +346,20 @@ footer{
     color:rgba(25,157,231);
     
      }
+
+#callcontact a {
+   color:rgba(25,157,231)
+}
+
+#direction{
+  text-align:center;
+    background-color: rgba(25,157,231, 0.2);
+    height:2.5rem;
+    width:8rem;
+    font-size:15px;
+   margin:auto;
+    border:solid;
+    border-width:2px;
+    border-color: rgba(25,157,231);
+    color:rgba(25,157,231);
+}

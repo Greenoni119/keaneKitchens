@@ -66,6 +66,15 @@
     Belmont Showroom
     415 Old County Rd, Belmont, CA 94002
 </p>
+<button id="direction" onclick="redirectToGoogleMaps()">Get Directions</button>
+
+  <script>
+    function redirectToGoogleMaps() {
+      var address = '415+Old+County+Rd,+Belmont,+CA+94002';
+      var url = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(address);
+      window.open(url);
+    }
+  </script>
     </div>
 
     <div class="whitebox" id="clock">
@@ -83,7 +92,7 @@
     Email: info@keanekitchens.com
 </p>
 <div id="callcontact">
-  CALL NOW
+  <a href="tel:+16506310330">Call Now</a>
 </div>
     </div>
 </div>

@@ -65,14 +65,14 @@ padding:0;
 margin:auto;
 }
 .photo-container{
-    width::100%;
+    width:100%;
 }
 .photo-container img{
 width:200px
 }
 
-
 }
+
 @media only screen and (max-width: 1000px) {
     #namelogo{
         width:9rem;
@@ -241,7 +241,7 @@ margin:auto;
 .whitebox {
   margin: 5px;
   padding:5px;
-  height:200px;
+  height:250px;
   max-width:200px;
   
 }
@@ -258,10 +258,20 @@ margin:auto;
  line-height:25px;
  margin:.7rem;
 }
+#clock{
+font-size: 18px;
+line-height: 30px;
+}
 
 #contact-form{
 margin:1rem;
 }
+
+.form-group input{
+font-size: .7rem;
+
+}
+
 formwrapper {
   margin-bottom: 20px; 
 }
