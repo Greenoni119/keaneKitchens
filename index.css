@@ -27,6 +27,7 @@ nav {
 }
 #logo{
   margin-left:20px;
+  padding:.3rem;
 }
 nav.fixed {
   position: fixed;
@@ -147,10 +148,6 @@ nav .nav-list .nav-item {
 }
 #contentone h1 {
 padding-bottom:1rem;
-}
-
-#contentone p {
-
 }
 
 #contentone ul{
@@ -283,7 +280,6 @@ cursor: pointer;
   bottom: 0;
   z-index: 1;
   overflow-y: auto;
-  
 }
 
 .expanded-content.active {

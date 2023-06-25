@@ -73,7 +73,13 @@ width:200px
 
 
 }
-
+@media only screen and (max-width: 1000px) {
+    #namelogo{
+        width:9rem;
+        margin-left:0;
+        padding-top:1rem;
+    }
+}
 
 @media only screen and (max-width: 920px) {
 

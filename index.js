@@ -1,36 +1,52 @@
 function slideNavbarOnScroll() {
-    const navbar = document.querySelector('.navbar');
-    let prevScrollY = window.pageYOffset || document.documentElement.scrollTop;
+  const navbar = document.querySelector('.navbar');
+  let prevScrollY = window.pageYOffset || document.documentElement.scrollTop;
+  let isScrollingUp = false;
 
-    function handleScroll() {
-        const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
+  function handleScroll() {
+    const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (currentScrollY > prevScrollY) {
-            navbar.classList.add('slide-up');
-            navbar.classList.remove('fixed');
-        } else {
-            navbar.classList.remove('slide-up');
-            navbar.classList.add('fixed');
-        }
-
-        prevScrollY = currentScrollY;
+    if (currentScrollY > prevScrollY) {
+      isScrollingUp = false;
+    } else {
+      isScrollingUp = true;
     }
 
-    window.addEventListener('scroll', handleScroll);
+    if (currentScrollY === 0) {
+      navbar.classList.remove('slide-up');
+      navbar.classList.remove('fixed');
+    } else if (isScrollingUp) {
+      navbar.classList.remove('slide-up');
+      navbar.classList.add('fixed');
+    } else {
+      navbar.classList.add('slide-up');
+    }
+
+    prevScrollY = currentScrollY;
+  }
+
+  window.addEventListener('scroll', handleScroll);
 }
 
 function toggleNavList() {
-const nav = document.querySelector('nav');
-nav.classList.toggle('slide-down');
+  const nav = document.querySelector('nav');
+  nav.classList.toggle('slide-down');
 }
 
-
 window.addEventListener('DOMContentLoaded', () => {
-    slideNavbarOnScroll();
+  slideNavbarOnScroll();
 
-    const toggleCheckbox = document.querySelector('#toggle');
-    toggleCheckbox.addEventListener('change', toggleNavList);
+  const toggleCheckbox = document.querySelector('#toggle');
+  toggleCheckbox.addEventListener('change', toggleNavList);
 });
+
+
+
+//-------------------------------------------------------------------
+
+
+
+
 
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
@@ -139,4 +155,3 @@ function showButtons() {
                 targetCarousel.classList.remove('active');
               });
             });
-            

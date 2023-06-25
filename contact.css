@@ -33,14 +33,17 @@ nav.fixed {
   top: 0;
   left: 0;
   right: 0;
+  bottom:0;
 }
 nav.slide-up {
         transform: translateY(-100%);
       }
 
-nav.slide-down .nav-list {
-    display: grid;
-}
+      nav.slide-down .nav-list {
+        display: grid;
+        transform: translateY(0);
+      }
+      
 input:checked ~ nav .nav-list {
     transform: translateY(0);
 }
@@ -329,3 +332,17 @@ footer{
     border-color: rgba(25,157,231);
     color:rgba(25,157,231);
 }
+
+#callcontact{
+    text-align:center;
+    background-color: rgba(25,157,231, 0.2);
+    height:1rem;
+    width:8rem;
+    font-size:20px;
+   margin:auto;
+    border:solid;
+    border-width:2px;
+    border-color: rgba(25,157,231);
+    color:rgba(25,157,231);
+    
+     }
