@@ -105,7 +105,7 @@ nav .nav-list .nav-item {
   border: solid;
 
   height:200px;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 #schedule1title {
@@ -140,10 +140,12 @@ nav .nav-list .nav-item {
     padding: 1rem;
     width: 100%;
     margin:auto;
-    padding-bottom:5rem;
+    padding-bottom: 5rem;
+
 }
 
 #contentone {
+    padding-top: 1rem;
     padding-right: 10rem;
     line-height: 30px;
     max-width: 600px;
@@ -153,14 +155,15 @@ padding-bottom:1rem;
 }
 
 #contentone ul{
-padding-top:2rem;
-padding-bottom:2rem;
+padding-top:1rem;
+padding-bottom: 1rem;
 line-height:40px;
 margin-left:3rem;
 }
 
 #contentone ul li {
 list-style-type:square;
+font-size: 14px;
  }
 .background{
      background-color:#e8e8e8;
@@ -222,7 +225,6 @@ footer {
     border-color: rgba(25,157,231);
     color:rgba(25,157,231);
     flex:1;
-     
 }
 /*------------------------------------------------------------------------------*/
 
