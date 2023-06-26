@@ -324,4 +324,13 @@ formwrapper {
             margin-top: 20px;
             line-height: 1.3;
         }
+        
+        #abcontent1{
+            width: 100%;
+        }
+
+        #aboutpara{
+            font-size: .9rem;
+            padding:1;
+        }
 }
