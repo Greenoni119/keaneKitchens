@@ -176,10 +176,11 @@ font-size: 14px;
     width:20%;
     margin:auto;
     color:white;
+    margin-top: 3rem !important;
 }
 
 .background p{
-    padding-top:1rem;
+    padding-top: 0;
     line-height:30px;
     text-align:center;
 }
