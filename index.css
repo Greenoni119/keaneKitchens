@@ -167,20 +167,20 @@ font-size: 14px;
  }
 .background{
      background-color:#e8e8e8;
+     padding-top: 4rem;
 }
 #title1{
     text-align:center;
+    padding-top: 1rem;
    background-color: #199DE7;
-    padding-top:1rem;
     padding-bottom:1rem;
-    width:20%;
+    width: 45%;
     margin:auto;
     color:white;
-    margin-top: 3rem !important;
 }
 
 .background p{
-    padding-top: 0;
+    padding-top: 1rem;
     line-height:30px;
     text-align:center;
 }
@@ -234,7 +234,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: 300px;
   position: relative;
   overflow: hidden;
 }
@@ -245,6 +245,7 @@ footer {
     width:10%;
     margin:auto;
     color:white;
+    z-index: 2;
 }
 
 .info{
