@@ -236,7 +236,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 27rem; /* 10% less height */
+  height: 28rem; /* 10% less height */
   position: relative;
   overflow: hidden;
 }
@@ -316,6 +316,10 @@ footer {
 .innerContent {
   display: flex;
   align-items: center;
+}
+.innerContent img{
+  max-width: 100%;
+  height: auto;
 }
 
 .carousel-item {
