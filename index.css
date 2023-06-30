@@ -140,15 +140,17 @@ nav .nav-list .nav-item {
     padding: 1rem;
     width: 100%;
     margin:auto;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 
 }
 
 #contentone {
-    padding-top: 1rem;
-    padding-right: 10rem;
-    line-height: 30px;
-    max-width: 600px;
+  margin-left: 3rem;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  line-height: 30px;
+  max-width: 600px;
 }
 #contentone h1 {
 padding-bottom:1rem;
