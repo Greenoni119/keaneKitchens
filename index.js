@@ -50,16 +50,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
-const button3 = document.getElementById('button3');
 const content1 = document.getElementById('content1');
 const content2 = document.getElementById('content2');
-const content3 = document.getElementById('content3');
 const backButtons = document.getElementsByClassName('backButton');
 
 
 button1.addEventListener('click', showContent1);
 button2.addEventListener('click', showContent2);
-button3.addEventListener('click', showContent3);
 
 
 for (let i = 0; i < backButtons.length; i++) {
@@ -83,21 +80,11 @@ function showContent2() {
 }
 
 
-function showContent3() {
-  button3.style.transform = 'scale(0)';
-  setTimeout(() => {
-    content3.classList.add('active');
-  }, 300); 
-}
-
-
 function showButtons() {
   button1.style.transform = 'scale(1)';
   button2.style.transform = 'scale(1)';
-  button3.style.transform = 'scale(1)';
   content1.classList.remove('active');
   content2.classList.remove('active');
-  content3.classList.remove('active');
 }
     
 
