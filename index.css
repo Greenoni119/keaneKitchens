@@ -262,9 +262,12 @@ footer {
 }
 
 .backButton {
+  position: absolute;
+  top: 5;
+  left: 5;
   background-color: #e8e8e8;
   width: 5.04rem; /* 10% less width */
-  margin: 0.72rem; /* 10% less margin */
+  margin: 0.72rem;
 }
 
 .button {
