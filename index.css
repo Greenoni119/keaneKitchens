@@ -174,9 +174,9 @@ font-size: 14px;
 #title1{
     text-align:center;
     padding-top: 1rem;
-   background-color: #199DE7;
+    background-color: #199DE7;
     padding-bottom:1rem;
-    width: 45%;
+    width: 30%;
     margin:auto;
     color:white;
 }
@@ -232,54 +232,53 @@ footer {
 /*------------------------------------------------------------------------------*/
 
 .container {
-  background-color:#e8e8e8;
+  background-color: #e8e8e8;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 27rem; /* 10% less height */
   position: relative;
   overflow: hidden;
 }
-.option p{
-    background-color: #199DE7;
-    text-align:center;
-    padding:1rem;
-    width:10%;
-    margin:auto;
-    color:white;
-    z-index: 2;
+
+.option p {
+  background-color: #199de7;
+  text-align: center;
+  padding: 0.9rem; /* 10% less padding */
+  width: 9%; /* 10% less width */
+  margin: auto;
+  color: white;
+  z-index: 2;
 }
 
-.info{
-  margin:2rem;
+.info {
+  margin: 1.44rem; /* 10% less margin */
 }
-.info p{
-text-align:left;
-max-width:300px;
-margin-top:1rem;
-}
- 
 
-.backButton{
-background-color:#e8e8e8;
-width:7rem;
-margin:1rem;
-cursor: pointer;
+.info p {
+  text-align: left;
+  max-width: 216px; /* 10% less max-width */
+  margin-top: 0.72rem; /* 10% less margin-top */
+}
+
+.backButton {
+  background-color: #e8e8e8;
+  width: 5.04rem; /* 10% less width */
+  margin: 0.72rem; /* 10% less margin */
 }
 
 .button {
   color: black;
-  padding: 10px 7rem;
-  margin: 0 10px;
+  padding: 7.2px 5.04rem; /* 10% less padding */
+  margin: 0 7.2px; /* 10% less margin */
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-  text-align:center;
+  text-align: center;
 }
 
 .expanded-content {
   display: none;
- background-color:#e8e8e8;
-  padding: 20px;
+  background-color: #e8e8e8;
+  padding: 14.4px; /* 10% less padding */
   color: white;
   position: absolute;
   top: 0;
@@ -295,17 +294,6 @@ cursor: pointer;
   flex-direction: column;
   animation: expandContent 0.3s ease-in-out forwards;
 }
-
-@keyframes expandContent {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
-}
-
-/*this is for the carousel items */
 
 .carousel-container {
   display: flex;
@@ -330,48 +318,50 @@ cursor: pointer;
 .carousel-item {
   display: none;
   position: relative;
-  color:black;
+  color: black;
+  transform: scale(0.8); /* 20% smaller scale */
 }
 
 .carousel-item.active {
   display: block;
+  transform: scale(1);
 }
-
 .carousel-item img {
-  margin: 10px;
-  border-radius:10%;
+  margin: 5.12px; /* 20% smaller margin */
+  border-radius: 5.12%; /* 20% smaller border radius */
+  max-width: 90%; /* 20% smaller maximum width */
+  max-height: 40%; /* 20% smaller maximum height */
 }
 
 .carousel-buttons {
-  margin-top: 20px;
+  margin-top: 14.4px; /* 10% less margin-top */
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .carousel-buttons button {
- background-color:#e8e8e8;
+  background-color: #e8e8e8;
   color: black;
   border: none;
-  padding: 10px 20px;
-  margin: 0 5px;
+  padding: 7.2px 14.4px; /* 10% less padding */
+  margin: 0 3.6px; /* 10% less margin */
   cursor: pointer;
 }
 
 .carousel-progress {
-  width: 50%;
-  height: 5px;
-  margin-top: 10px;
+  width: 36%; /* 10% less width */
+  height: 3.6px; /* 10% less height */
+  margin-top: 7.2px; /* 10% less margin-top */
   background-color: gray;
-  border-radius:10%;
+  border-radius: 7.2%; /* 10% less border-radius */
 }
 
 .carousel-progress-bar {
   height: 100%;
-  background-color: #199DE7;
-  border-radius:10%;
-  transition: width 0.3s ease-in-out;
+  width: 0;
+  background-color: #199de7;
+  border-radius: 7.2%; /* 10% less border-radius */
 }
 
 /*------------------------------------------------------------------------------*/
