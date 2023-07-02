@@ -216,9 +216,13 @@ footer {
   width: 1440px; 
   height: 606px; 
   left: 0px; 
-  top: 2497px; 
-  position: relative; 
+  top: 2497px;
+  position: relative;
   background: #EEF9FF;
+}
+
+.container img{
+  object-fit: cover;
 }
 
 .option p {
