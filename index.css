@@ -167,25 +167,6 @@ margin-left:3rem;
 list-style-type:square;
 font-size: 14px;
  }
-.background{
-     background-color:#e8e8e8;
-     padding-top: 4rem;
-}
-#title1{
-    text-align:center;
-    padding-top: 1rem;
-    background-color: #199DE7;
-    padding-bottom:1rem;
-    width: 30%;
-    margin:auto;
-    color:white;
-}
-
-.background p{
-    padding-top: 1rem;
-    line-height:30px;
-    text-align:center;
-}
 
 nav .nav-list .nav-item:hover {
     background: rgba(25,157,231);
@@ -232,13 +213,12 @@ footer {
 /*------------------------------------------------------------------------------*/
 
 .container {
-  background-color: #e8e8e8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 28rem; /* 10% less height */
-  position: relative;
-  overflow: hidden;
+  width: 1440px; 
+  height: 606px; 
+  left: 0px; 
+  top: 2497px; 
+  position: relative; 
+  background: #EEF9FF;
 }
 
 .option p {
@@ -283,7 +263,6 @@ footer {
   background-color: #e8e8e8;
   padding: 14.4px; /* 10% less padding */
   color: white;
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
