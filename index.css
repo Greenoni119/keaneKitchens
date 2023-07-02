@@ -337,7 +337,8 @@ footer {
   margin: 5.12px; /* 20% smaller margin */
   border-radius: 5.12%; /* 20% smaller border radius */
   max-width: 90%; /* 20% smaller maximum width */
-  max-height: 40%; /* 20% smaller maximum height */
+  max-height: 40%;
+  object-fit: contain;
 }
 
 .carousel-buttons {
