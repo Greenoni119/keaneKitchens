@@ -213,10 +213,9 @@ footer {
 /*------------------------------------------------------------------------------*/
 
 .container {
-  width: 1440px; 
-  height: 606px; 
+  width: 100rem;
+  height: 33rem; 
   left: 0px; 
-  top: 2497px;
   position: relative;
   background: #EEF9FF;
 }
