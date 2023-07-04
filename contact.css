@@ -333,19 +333,20 @@ footer{
     color:rgba(25,157,231);
 }
 
-#callcontact{
-    text-align:center;
-    background-color: rgba(25,157,231, 0.2);
-    height:1.5rem;
-    width:8rem;
-    font-size:20px;
-   margin:auto;
-    border:solid;
-    border-width:2px;
-    border-color: rgba(25,157,231);
-    color:rgba(25,157,231);
-    
-     }
+#callcontact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(25, 157, 231, 0.2);
+  height: 2.35rem;
+  width: 8rem;
+  font-size: 20px;
+  margin: auto;
+  border: solid;
+  border-width: 2px;
+  border-color: rgba(25, 157, 231);
+  color: rgba(25, 157, 231);
+}
 
 #callcontact a {
    color:rgba(25,157,231)
