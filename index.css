@@ -99,7 +99,7 @@ nav .nav-list .nav-item {
         }
 #schedule1 {
   width: 100%;
-  background-color: rgb(211, 211, 211);
+  background-color: #EEF9FF;
   
   justify-content: center;
   border: solid;
@@ -705,7 +705,7 @@ line-height:25px;
 }
 .divider {
   border: none;
-  border-top: 1px solid black;
+  border-top: 1px solid black;@
   
 }
 
