@@ -355,16 +355,18 @@ footer {
 }
 
 /*------------------------------------------------------------------------------*/
-nav .nav-list .nav-link {
-    color: gray;
-    font-size: 18px;
-    font-weight: 500;
+
+.nav-item.active {
+  text-decoration: underline;
+  text-underline-offset: 0.125rem;
 }
+
 nav .nav-list .nav-link:hover {
     color: white;
     font-size: 18px;
     font-weight: 500;
 }
+
 @media (max-width: 955px) {
 
     nav {

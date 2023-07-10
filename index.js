@@ -1,3 +1,6 @@
+
+
+
 function slideNavbarOnScroll() {
   const navbar = document.querySelector('.navbar');
   let prevScrollY = window.pageYOffset || document.documentElement.scrollTop;
@@ -68,7 +71,15 @@ function showContent1() {
   button1.style.transform = 'scale(0)';
   setTimeout(() => {
     content1.classList.add('active');
-  }, 300); 
+
+    // Remove the active class from the current tab button
+    const currentTab = document.querySelector('.nav-item.active');
+    currentTab.classList.remove('active');
+
+    // Add the active class to the Home tab button
+    const homeTab = document.querySelector('.nav-item:nth-child(1)');
+    homeTab.classList.add('active');
+  }, 300);
 }
 
 
@@ -76,7 +87,15 @@ function showContent2() {
   button2.style.transform = 'scale(0)';
   setTimeout(() => {
     content2.classList.add('active');
-  }, 300); 
+
+    // Remove the active class from the current tab button
+    const currentTab = document.querySelector('.nav-item.active');
+    currentTab.classList.remove('active');
+
+    // Add the active class to the Mini Remodel tab button
+    const miniRemodelTab = document.querySelector('.nav-item:nth-child(2)');
+    miniRemodelTab.classList.add('active');
+  }, 300);
 }
 
 
@@ -85,6 +104,13 @@ function showButtons() {
   button2.style.transform = 'scale(1)';
   content1.classList.remove('active');
   content2.classList.remove('active');
+
+  const navItems = document.querySelectorAll('.nav-item');
+  navItems.forEach(item => item.classList.remove('active'));
+  
+  const currentTab = document.querySelector('.active-tab');
+  const currentNavItem = currentTab.parentNode;
+  currentNavItem.classList.add('active');
 }
     
 
